@@ -12,5 +12,6 @@ function calcularIdade(data_nascimento){
  return idade;
 }
 const minha_idade = calcularIdade("2003-08-01"); //Agosto deve ser convertido para mês 7 automaticamente ;
-document.getElementById("minhaIdade").textContent = idade;
+document.querySelector(".minhaIdade").textContent = minha_idade;
+
 

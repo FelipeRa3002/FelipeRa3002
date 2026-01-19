@@ -23,4 +23,7 @@ Este script automatiza o download de múltiplos arquivos através de duas listas
 
 A técnica de download utilizada é uma simulação de interação humana: para cada item da lista, o JavaScript cria um elemento de âncora (<a>) temporário e invisível, define o caminho do arquivo no atributo href e utiliza o método .split('/').pop() para extrair apenas o nome final do arquivo, garantindo que ele seja salvo com o nome correto através do atributo download. Após simular o clique (click()), o elemento é removido para manter a integridade da página.
 
+
 Um ponto crucial é o uso do setTimeout com um multiplicador baseado no índice do arquivo (index * 400). Essa estratégia é fundamental para evitar que o navegador bloqueie os downloads por segurança, interpretando-os como um ataque de spam ou comportamento malicioso. Ao espaçar cada download em 400 milissegundos, o código cria uma fila ordenada que permite baixar dezenas de arquivos de forma sequencial e automática sem disparar os bloqueadores de janelas pop-up ou de downloads múltiplos simultâneos.
+
+No dia 19 de janeiro de 2026, às 09:44, criei uma seção de certificados na área de Skills. Decidi que as páginas extras e algumas imagens ficarão na parte de testes, em vez de permanecerem aqui. Além disso, desenvolvi uma função em JavaScript para obter a largura (width) de um elemento por meio de seu ID.

@@ -94,6 +94,11 @@ Evita bloqueios de segurança → navegadores modernos limitam múltiplos downlo
 
 Mantém a integridade da página → elementos temporários são removidos após o uso.
 
+
+
 Escalabilidade → permite baixar dezenas ou até centenas de arquivos sem intervenção manual.
 
+
 Organização → cada arquivo é salvo com o nome correto, sem risco de sobrescrever outros.
+
+No dia 19 de janeiro de 2026, às 09:44, criei uma seção de certificados na área de Skills. Decidi que as páginas extras e algumas imagens ficarão na parte de testes, em vez de permanecerem aqui. Além disso, desenvolvi uma função em JavaScript para obter a largura (width) de um elemento por meio de seu ID.

@@ -94,126 +94,137 @@
             <!--Fim do article video-->
             
             <article id="skills">
-                <h2> <i class="fa-solid fa-braille"></i> Minhas skills <i class="fa-solid fa-code-branch"></i></h2>
-                <div id="skill-container">
-                    <div id="barra-skills-porcent">
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-html5" id="html-logo"></i> - HTML 5</span>
-                                <span class="porcent">90%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" id="html" style="width: 90%;">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                  <!-- Modifição feita no dia 19-01-2026, coloquei a aba para Certificados e criei uma nova função chamada de OQuemostraremSkillss-->
+                <nav id="Sessoes-de-habilidades">
+                    <h2><a onclick="OQuemostraremSkillss('barra-logos-das-skills')"><i class="fa-solid fa-braille"></i> Minhas skills <i class="fa-solid fa-code-branch"></i></a></h2>
+                    <h2><a onclick="OQuemostraremSkillss('certificados-meus')"><i class="fa-solid fa-certificate"></i> Certificados <i class="fa-solid fa-stamp"></i></a></h2>
+                </nav>
+                 <section id="barra-logos-das-skills">
+                    <div id="skill-container">
+                        <div id="barra-skills-porcent">
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-html5" id="html-logo"></i> - HTML 5</span>
+                                    <span class="porcent">90%</span>
                                 </div>
-                            </div>
-                        </div>  <!--fim da skill html-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-css3-alt" id="css-logo"></i> - CSS3</span>
-                                <span class="porcent">80%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" id="css" style="width: 80%;">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                <div class="barra">
+                                    <div class="progresso" id="html" style="width: 90%;">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
                                 </div>
-                            </div>
-                        </div> <!--fim da skill css-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-js" id="javascript-logo"></i> - JavaScript</span>
-                                <span class="porcent">75%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" id="javascript" style="width: 75%;">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                            </div>  <!--fim da skill html-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-css3-alt" id="css-logo"></i> - CSS3</span>
+                                    <span class="porcent">80%</span>
                                 </div>
-                            </div>
-                        </div>  <!--fim da skill javascript-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-php" id="php-logo"></i> - PHP</span>
-                                <span class="porcent">60%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" id="php" style="width: 60%;">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                <div class="barra">
+                                    <div class="progresso" id="css" style="width: 80%;">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
                                 </div>
-                            </div>
-                        </div> <!--fim da skill PHP-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-python" id="python-logo"></i> - Python</span>
-                                <span class="porcent">100%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" style="width: 100%;" id="python">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                            </div> <!--fim da skill css-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-js" id="javascript-logo"></i> - JavaScript</span>
+                                    <span class="porcent">75%</span>
                                 </div>
-                            </div>
-                        </div> <!--fim da skill Python-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-solid fa-database"></i> - MySQL</span>
-                                <span class="porcent">30%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" style="width: 30%;" id="MySQL">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                <div class="barra">
+                                    <div class="progresso" id="javascript" style="width: 75%;">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
                                 </div>
-                            </div>
-                        </div> <!--fim da skill MySQL-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-linux" id="linux-logo"></i> - Linux</span>
-                                <span class="porcent">70%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" style="width: 70%;" id="linux">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                            </div>  <!--fim da skill javascript-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-php" id="php-logo"></i> - PHP</span>
+                                    <span class="porcent">60%</span>
                                 </div>
-                            </div>
-                        </div> <!--fim da skill Linux-->
-                        <div class="item">
-                            <div class="info">
-                                <span class="nome"><i class="fa-brands fa-windows" id="windows-logo"></i> - Windows</span>
-                                <span class="porcent">85%</span>
-                            </div>
-                            <div class="barra">
-                                <div class="progresso" style="width: 85%;" id="windows">
-                                    <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                <div class="barra">
+                                    <div class="progresso" id="php" style="width: 60%;">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
                                 </div>
-                            </div>
-                        </div> <!--fim da skill Windows-->
-                    </div>
-                    <div id="tecnologia-e-ferramentas">
-                        <!--<img width="12" />-->
-                        <!--Linguagens de Programação que eu sei ou estou estudando-->
-                        <h3 class="sub_titulos_que_acho_bonitos">Linguagens de Programação</h3>
-                        <div >
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+                            </div> <!--fim da skill PHP-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-python" id="python-logo"></i> - Python</span>
+                                    <span class="porcent">100%</span>
+                                </div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 100%;" id="python">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
+                                </div>
+                            </div> <!--fim da skill Python-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-solid fa-database"></i> - MySQL</span>
+                                    <span class="porcent">30%</span>
+                                </div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 30%;" id="MySQL">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
+                                </div>
+                            </div> <!--fim da skill MySQL-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-linux" id="linux-logo"></i> - Linux</span>
+                                    <span class="porcent">70%</span>
+                                </div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 70%;" id="linux">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
+                                </div>
+                            </div> <!--fim da skill Linux-->
+                            <div class="item">
+                                <div class="info">
+                                    <span class="nome"><i class="fa-brands fa-windows" id="windows-logo"></i> - Windows</span>
+                                    <span class="porcent">85%</span>
+                                </div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 85%;" id="windows">
+                                        <!--O Width é igual o que eu colocar no span class="porcent" -->
+                                    </div>
+                                </div>
+                            </div> <!--fim da skill Windows-->
                         </div>
-                        
-                        <!--Tecnologia e Ferramentas que eu sei ou estou estudando-->
-                        <h3 class="sub_titulos_que_acho_bonitos">Tecnologia e Ferramentas</h3>
-                        <div>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
-                        </div>
+                        <div id="tecnologia-e-ferramentas">
+                            <!--<img width="12" />-->
+                            <!--Linguagens de Programação que eu sei ou estou estudando-->
+                            <h3 class="sub_titulos_que_acho_bonitos">Linguagens de Programação</h3>
+                            <div >
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
+                            </div>
                     
-                        <!--Sistema Operacional que eu sei ou estou estudando-->
-                        <h3 class="sub_titulos_que_acho_bonitos">Sistema Operacional</h3>
-                        <div>
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="windows8 logo"  />
+                            <!--Tecnologia e Ferramentas que eu sei ou estou estudando-->
+                            <h3 class="sub_titulos_que_acho_bonitos">Tecnologia e Ferramentas</h3>
+                            <div>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+                            </div>
+                    
+                            <!--Sistema Operacional que eu sei ou estou estudando-->
+                            <h3 class="sub_titulos_que_acho_bonitos">Sistema Operacional</h3>
+                            <div>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="linux logo"  />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" alt="windows8 logo"  />
+                            </div>
                         </div>
+                    </div> <!--fim do skill-container-->
+                </section>
+                <section id="certificados-meus" class="ocultar">
+                    <div id="skill-container">
+                        <iframe class="iframe_dos_skills" src="https://felipera3002.github.io/Teste-de-coisas/P%C3%A1gina%20Inicial/Página-extras/certificados.html" frameborder="0" id="testeteste"></iframe>
                     </div>
-
-                </div> <!--fim do skill-container-->
+                </section> <!--fim do skill-container-->
+                <!--fim do skill-container-->
             </article> 
             <!--Fim do article skills-->
 

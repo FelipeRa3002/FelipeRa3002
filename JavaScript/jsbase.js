@@ -293,7 +293,7 @@ function baixarArquivosLocais(x) {
           }, index * 400); // Intervalo de 400ms para evitar bloqueio do navegador
         });
       }
-  }
+    }
 }
     
 /* Modificação do dia 21/06/2024 - Adição da seção de certificados */
@@ -311,7 +311,7 @@ function OQuemostraremSkillss(x){
       if (x === 'certificados-meus'){
         let AbrirAbadeCerfiticados = confirm("Você deseja ver os certificados?");
         if (AbrirAbadeCerfiticados){
-          window.open("https://felipera3002.github.io/Teste-de-coisas/P%C3%A1gina%20Inicial/Página-extras/Certificados-index.html", "_blank");
+          window.open("Página-extras/Certificados-index.html", "_blank");
         }
       }
     }
@@ -323,6 +323,5 @@ let veroTamanhodoWidth = document.getElementById("Coloque o id aqui");
 alert(veroTamanhodoWidth.offsetWidth);
 }
 /* Modificação do dia 21/06/2024 - Fim da adição da seção de certificados */
-    }
-}
+
 

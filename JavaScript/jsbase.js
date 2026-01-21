@@ -293,7 +293,8 @@ function baixarArquivosLocais(x) {
           }, index * 400); // Intervalo de 400ms para evitar bloqueio do navegador
         });
       }
-
+  }
+}
     
 /* Modificação do dia 21/06/2024 - Adição da seção de certificados */
 function OQuemostraremSkillss(x){

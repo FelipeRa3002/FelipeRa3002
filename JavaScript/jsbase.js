@@ -311,7 +311,7 @@ function OQuemostraremSkillss(x){
       if (x === 'certificados-meus'){
         let AbrirAbadeCerfiticados = confirm("Você deseja ver os certificados?");
         if (AbrirAbadeCerfiticados){
-          window.open("Página-extras/Certificados-index.html", "_blank");
+          window.open("https://felipera3002.github.io/Teste-de-coisas/P%C3%A1gina%20Inicial/P%C3%A1gina-extras/Certificados-index.html", "_blank");
         }
       }
     }

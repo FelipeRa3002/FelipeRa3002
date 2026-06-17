@@ -219,7 +219,7 @@ if (categoriasdeprojetos === 'javascript'){
   }
 }
 if (categoriasdeprojetos === 'python'){
-  quantidadesdeabas = 2 ; 
+  quantidadesdeabas = 3 ; 
   for (let i = 1; i <= quantidadesdeabas; i++){
     let abaParaMostrarcertar = document.getElementById("Aba-" + i + "-python");
     if (abaParaMostrarcertar == AbasParamostrar){
